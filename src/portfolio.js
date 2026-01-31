@@ -494,7 +494,7 @@ const projectCredentials = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile.jpg",
+    profile_image_path: "profile_photo.png",
     description:
       "I am a Software Engineer with 5+ years of experience building scalable enterprise applications. My expertise spans full-stack development with Java, Spring Boot, Angular, and React, along with cloud technologies (AWS, Azure) and microservices architecture. I've contributed at Fidelity Investments, UFIT, Brillio (Verizon), and Capgemini (MetLife), delivering solutions that improved performance, streamlined workflows, and enhanced user experiences. I'm always open to connecting with fellow professionals and exploring new opportunities!",
   },

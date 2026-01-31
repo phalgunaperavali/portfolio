@@ -1,0 +1,151 @@
+{
+  "data": [
+    {
+      "id": "go-reddit-clone",
+      "name": "GO-Reddit-Clone",
+      "description": "A lightweight Reddit-style discussion platform built with Go. Features include user registration, posting, commenting, and voting functionality.",
+      "svn_url": "https://github.com/phalgunaperavali/GO-Reddit-Clone",
+      "languages_url": "https://github.com/phalgunaperavali/GO-Reddit-Clone",
+      "stargazers_count": 0,
+      "pushed_at": "2025-04-29T10:41:52Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Go": 80,
+        "PostgreSQL": 20
+      }
+    },
+    {
+      "id": "online-banking",
+      "name": "Online Banking App",
+      "description": "Full-stack online banking application built with Java Spring Boot backend and React Redux frontend for banking operations.",
+      "svn_url": "https://github.com/phalgunaperavali/advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
+      "languages_url": "https://github.com/phalgunaperavali/advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T18:02:39Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Java": 50,
+        "JavaScript": 30,
+        "CSS": 20
+      }
+    },
+    {
+      "id": "gator-library",
+      "name": "Gator-Library",
+      "description": "Python-based library management system with modular architecture for books and patrons management.",
+      "svn_url": "https://github.com/phalgunaperavali/Gator-Library",
+      "languages_url": "https://github.com/phalgunaperavali/Gator-Library",
+      "stargazers_count": 0,
+      "pushed_at": "2025-02-12T23:57:07Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Python": 100
+      }
+    },
+    {
+      "id": "plant-seedlings-classifier",
+      "name": "PlantSeedlingsClassifier",
+      "description": "Deep learning plant seedling classification using CNNs and transfer learning for plant species identification.",
+      "svn_url": "https://github.com/phalgunaperavali/PlantSeedlingsClassifier",
+      "languages_url": "https://github.com/phalgunaperavali/PlantSeedlingsClassifier",
+      "stargazers_count": 0,
+      "pushed_at": "2025-02-14T02:24:05Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Python": 70,
+        "Jupyter Notebook": 30
+      }
+    },
+    {
+      "id": "financial-advisor-llm",
+      "name": "Financial Advisor LLM",
+      "description": "AI-powered financial advisor application using Large Language Models for financial guidance.",
+      "svn_url": "https://github.com/phalgunaperavali/financial_advisor_llm",
+      "languages_url": "https://github.com/phalgunaperavali/financial_advisor_llm",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T18:10:57Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Python": 100
+      }
+    },
+    {
+      "id": "wealthwise-robo-advisor",
+      "name": "WealthWise Robo-Advisor",
+      "description": "TypeScript-based automated financial advisory and wealth management solution.",
+      "svn_url": "https://github.com/phalgunaperavali/wealthwise-robo-advisor",
+      "languages_url": "https://github.com/phalgunaperavali/wealthwise-robo-advisor",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T18:16:36Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "TypeScript": 80,
+        "JavaScript": 20
+      }
+    },
+    {
+      "id": "mern-ecommerce",
+      "name": "MERN E-Commerce",
+      "description": "Full-stack e-commerce platform built with MongoDB, Express, React, and Node.js.",
+      "svn_url": "https://github.com/phalgunaperavali/mern-ecommerce",
+      "languages_url": "https://github.com/phalgunaperavali/mern-ecommerce",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T17:59:01Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "JavaScript": 70,
+        "CSS": 20,
+        "HTML": 10
+      }
+    },
+    {
+      "id": "multi-agent-diagnosis",
+      "name": "Multi-Agent Disease Diagnosis",
+      "description": "Multi-agent conversation system for medical disease diagnosis using AI.",
+      "svn_url": "https://github.com/phalgunaperavali/multi-agent-conversation-for-disease-diagnosis",
+      "languages_url": "https://github.com/phalgunaperavali/multi-agent-conversation-for-disease-diagnosis",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T18:00:04Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Python": 100
+      }
+    },
+    {
+      "id": "agentic-rag-crewai",
+      "name": "Agentic RAG with CrewAI",
+      "description": "Agentic Retrieval-Augmented Generation using CrewAI framework for intelligent AI agents.",
+      "svn_url": "https://github.com/phalgunaperavali/agentic-rag-with-crewai",
+      "languages_url": "https://github.com/phalgunaperavali/agentic-rag-with-crewai",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T18:06:01Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Python": 100
+      }
+    },
+    {
+      "id": "customer-churn-prediction",
+      "name": "Customer Churn Prediction",
+      "description": "Machine learning project for predicting customer churn using data science techniques.",
+      "svn_url": "https://github.com/phalgunaperavali/customer-churn-prediction",
+      "languages_url": "https://github.com/phalgunaperavali/customer-churn-prediction",
+      "stargazers_count": 0,
+      "pushed_at": "2026-01-31T18:08:07Z",
+      "default_branch": "main",
+      "is_active": false,
+      "languages": {
+        "Python": 100
+      }
+    }
+  ]
+}

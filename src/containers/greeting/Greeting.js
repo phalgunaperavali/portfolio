@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+import developerImg from "../../assests/images/illustration_developer.svg";
 import ResumeModal from "../../components/ResumeModal/ResumeModal";
 
 const Greeting = ({ theme }) => {
@@ -55,7 +55,11 @@ const Greeting = ({ theme }) => {
               </div>
             </div>
             <div className="greeting-image-div">
-              <FeelingProud theme={theme} />
+              <img
+                src={developerImg}
+                alt="Developer illustration"
+                className="illustration-float"
+              />
             </div>
           </div>
         </div>

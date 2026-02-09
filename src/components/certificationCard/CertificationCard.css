@@ -9,6 +9,12 @@
   box-shadow: 5px 5px 5px #d9dbdf;
   margin-bottom: 30px;
   flex: 0 0 30%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: scale(1.03);
+  box-shadow: 8px 8px 20px rgba(85, 60, 154, 0.2);
 }
 .lead-ul {
   font-family: Arial, sans-serif;

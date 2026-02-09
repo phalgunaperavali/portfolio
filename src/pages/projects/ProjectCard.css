@@ -5,34 +5,17 @@
 .custombutton {
   width: 100% !important;
   margin-top: 5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custombutton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(85, 60, 154, 0.3);
 }
 
 .custombuttongroup {
   padding: 0.25rem;
   width: 90% !important;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 5px 30px;
-}
-
-@media (min-width: 576px) {
-  .custombuttongroup {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .custombuttongroup {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/*  Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .custombuttongroup {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .customheading2 {
@@ -40,4 +23,13 @@
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(85, 60, 154, 0.2) !important;
 }

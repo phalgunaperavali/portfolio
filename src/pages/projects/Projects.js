@@ -6,8 +6,7 @@ import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { greeting, projectsHeader } from "../../portfolio.js";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
-import { repos } from "../../portfolio";
+import projectsImg from "../../assests/images/illustration_projects.svg";
 import ProjectCard from "./ProjectCard.js";
 import projectsData from "../../shared/opensource/projects.json";
 
@@ -31,7 +30,11 @@ const Projects = ({ theme, onToggle }) => {
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <ProjectsImg theme={theme} />
+                <img
+                  src={projectsImg}
+                  alt="Projects illustration"
+                  className="illustration-float"
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1
@@ -59,8 +62,6 @@ const Projects = ({ theme, onToggle }) => {
                   key={`project-card-${index}`}
                   id={`project-card-${index}`}
                   value={project}
-                  deployURL={repos.deployURL}
-                  hostedURL={repos.hostedURL}
                   theme={theme}
                 />
               ))

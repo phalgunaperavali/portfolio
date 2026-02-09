@@ -12,10 +12,16 @@
   margin-right: 20px;
   margin-bottom: 20px;
   font-family: "Google Sans Regular";
+  transition: transform 0.3s ease;
+}
+
+.software-skill-inline:hover {
+  transform: translateY(-5px);
 }
 
 .software-skill-inline > i {
   color: #868e96;
+  transition: color 0.3s ease;
 }
 
 .software-skill-inline > i:hover {
@@ -24,4 +30,9 @@
 
 .skill-image {
   height: 48px;
+  transition: transform 0.3s ease;
+}
+
+.skill-image:hover {
+  transform: scale(1.15);
 }

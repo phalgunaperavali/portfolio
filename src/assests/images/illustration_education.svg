@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background decorative circle -->
+  <circle cx="250" cy="210" r="160" fill="#F5F5F5"/>
+
+  <!-- Stack of books -->
+  <g transform="translate(280, 240)">
+    <!-- Book 1 (bottom) -->
+    <rect x="0" y="40" rx="4" ry="4" width="90" height="18" fill="#553c9a" opacity="0.7"/>
+    <rect x="2" y="42" rx="2" ry="2" width="4" height="14" fill="#553c9a" opacity="0.9"/>
+
+    <!-- Book 2 -->
+    <rect x="-5" y="20" rx="4" ry="4" width="85" height="18" fill="#ee4b2b" opacity="0.5"/>
+    <rect x="-3" y="22" rx="2" ry="2" width="4" height="14" fill="#ee4b2b" opacity="0.7"/>
+
+    <!-- Book 3 -->
+    <rect x="5" y="0" rx="4" ry="4" width="80" height="18" fill="#553c9a" opacity="0.5"/>
+    <rect x="7" y="2" rx="2" ry="2" width="4" height="14" fill="#553c9a" opacity="0.7"/>
+
+    <!-- Book 4 (top) -->
+    <rect x="-2" y="-20" rx="4" ry="4" width="88" height="18" fill="#553c9a" opacity="0.35"/>
+    <rect x="0" y="-18" rx="2" ry="2" width="4" height="14" fill="#553c9a" opacity="0.5"/>
+  </g>
+
+  <!-- Open book on top of stack -->
+  <g transform="translate(320, 210)">
+    <!-- Left page -->
+    <path d="M0 0 Q-30 -5 -40 0 L-40 30 Q-30 25 0 30 Z" fill="#fff" stroke="#E0E0E0" stroke-width="1"/>
+    <!-- Right page -->
+    <path d="M0 0 Q30 -5 40 0 L40 30 Q30 25 0 30 Z" fill="#fff" stroke="#E0E0E0" stroke-width="1"/>
+    <!-- Text lines left page -->
+    <line x1="-32" y1="8" x2="-8" y2="8" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-30" y1="14" x2="-10" y2="14" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-32" y1="20" x2="-14" y2="20" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Text lines right page -->
+    <line x1="8" y1="8" x2="32" y2="8" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="10" y1="14" x2="30" y2="14" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="20" x2="28" y2="20" stroke="#E0E0E0" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Spine -->
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#E0E0E0" stroke-width="1"/>
+  </g>
+
+  <!-- Certificate / Diploma -->
+  <g transform="translate(370, 120)">
+    <rect x="0" y="0" rx="6" ry="6" width="80" height="60" fill="#fff" stroke="#E0E0E0" stroke-width="1.5"/>
+    <!-- Certificate header line -->
+    <rect x="15" y="10" rx="2" ry="2" width="50" height="4" fill="#553c9a" opacity="0.4"/>
+    <!-- Certificate body lines -->
+    <rect x="10" y="22" rx="1" ry="1" width="60" height="3" fill="#E0E0E0"/>
+    <rect x="14" y="30" rx="1" ry="1" width="52" height="3" fill="#E0E0E0"/>
+    <rect x="18" y="38" rx="1" ry="1" width="44" height="3" fill="#E0E0E0"/>
+    <!-- Seal -->
+    <circle cx="60" cy="50" r="8" fill="#ee4b2b" opacity="0.3"/>
+    <circle cx="60" cy="50" r="5" fill="#ee4b2b" opacity="0.4"/>
+    <!-- Ribbon -->
+    <line x1="56" y1="56" x2="52" y2="65" stroke="#ee4b2b" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <line x1="64" y1="56" x2="68" y2="65" stroke="#ee4b2b" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person -->
+  <!-- Legs -->
+  <rect x="138" y="300" rx="5" ry="5" width="12" height="42" fill="#2D2D2D"/>
+  <rect x="158" y="300" rx="5" ry="5" width="12" height="42" fill="#2D2D2D"/>
+
+  <!-- Shoes -->
+  <ellipse cx="144" cy="342" rx="10" ry="5" fill="#2D2D2D"/>
+  <ellipse cx="164" cy="342" rx="10" ry="5" fill="#2D2D2D"/>
+
+  <!-- Torso / Gown -->
+  <path d="M125 240 Q125 220 155 218 Q185 220 185 240 L190 300 L120 300 Z" fill="#553c9a"/>
+
+  <!-- Gown collar detail -->
+  <path d="M140 222 L155 235 L170 222" stroke="#ee4b2b" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="148" y="203" rx="4" ry="4" width="12" height="18" fill="#FFB5B5"/>
+
+  <!-- Head -->
+  <ellipse cx="155" cy="188" rx="22" ry="24" fill="#FFB5B5"/>
+
+  <!-- Hair -->
+  <path d="M133 182 Q133 162 155 158 Q177 162 177 182 L177 174 Q177 158 155 154 Q133 158 133 174 Z" fill="#2D2D2D"/>
+
+  <!-- Graduation cap -->
+  <g transform="translate(155, 158)">
+    <!-- Cap board (mortarboard) -->
+    <polygon points="-30,-5 0,-14 30,-5 0,4" fill="#2D2D2D"/>
+    <!-- Cap base -->
+    <ellipse cx="0" cy="0" rx="18" ry="6" fill="#2D2D2D"/>
+    <!-- Tassel string -->
+    <path d="M0 -10 L25 -8 L28 5 L28 12" stroke="#ee4b2b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Tassel end -->
+    <rect x="25" y="12" rx="2" ry="2" width="6" height="8" fill="#ee4b2b"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="147" cy="186" r="2.2" fill="#2D2D2D"/>
+  <circle cx="163" cy="186" r="2.2" fill="#2D2D2D"/>
+
+  <!-- Smile -->
+  <path d="M149 196 Q155 202 161 196" stroke="#2D2D2D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Arm holding diploma/scroll -->
+  <path d="M185 245 Q210 240 230 230" stroke="#FFB5B5" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- Rolled diploma in hand -->
+  <g transform="translate(228, 222) rotate(-15)">
+    <rect x="0" y="0" rx="4" ry="4" width="35" height="12" fill="#fff" stroke="#E0E0E0" stroke-width="1"/>
+    <ellipse cx="0" cy="6" rx="3" ry="6" fill="#fff" stroke="#E0E0E0" stroke-width="1"/>
+    <rect x="32" y="1" rx="1" ry="1" width="4" height="10" fill="#ee4b2b" opacity="0.6"/>
+  </g>
+
+  <!-- Other arm -->
+  <path d="M125 245 Q105 260 100 280" stroke="#FFB5B5" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="98" cy="282" r="6" fill="#FFB5B5"/>
+
+  <!-- Floating knowledge/education symbols -->
+  <!-- Atom symbol -->
+  <g transform="translate(75, 110)">
+    <ellipse cx="0" cy="0" rx="18" ry="8" fill="none" stroke="#553c9a" stroke-width="1.5" opacity="0.25" transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="18" ry="8" fill="none" stroke="#553c9a" stroke-width="1.5" opacity="0.25" transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="18" ry="8" fill="none" stroke="#553c9a" stroke-width="1.5" opacity="0.25" transform="rotate(-60)"/>
+    <circle cx="0" cy="0" r="3" fill="#553c9a" opacity="0.3"/>
+  </g>
+
+  <!-- Math formula -->
+  <g transform="translate(80, 190)">
+    <text x="0" y="0" text-anchor="middle" fill="#553c9a" font-family="serif" font-style="italic" font-size="14" opacity="0.2">f(x)</text>
+  </g>
+
+  <!-- Light bulb -->
+  <g transform="translate(440, 260)">
+    <ellipse cx="0" cy="-4" rx="10" ry="12" fill="none" stroke="#ee4b2b" stroke-width="1.5" opacity="0.3"/>
+    <rect x="-4" y="8" rx="2" ry="2" width="8" height="5" fill="#ee4b2b" opacity="0.2"/>
+    <line x1="0" y1="-20" x2="0" y2="-24" stroke="#ee4b2b" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+    <line x1="12" y1="-12" x2="16" y2="-14" stroke="#ee4b2b" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+    <line x1="-12" y1="-12" x2="-16" y2="-14" stroke="#ee4b2b" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Stars / sparkles -->
+  <g transform="translate(200, 100)">
+    <polygon points="0,-8 2,-3 8,-3 3,1 5,7 0,3 -5,7 -3,1 -8,-3 -2,-3" fill="#ee4b2b" opacity="0.25"/>
+  </g>
+  <g transform="translate(250, 80)">
+    <polygon points="0,-6 1.5,-2 6,-2 2.5,0.5 4,5 0,2.5 -4,5 -2.5,0.5 -6,-2 -1.5,-2" fill="#553c9a" opacity="0.2"/>
+  </g>
+  <g transform="translate(100, 80)">
+    <polygon points="0,-5 1,-2 5,-2 2,0.5 3,4 0,2 -3,4 -2,0.5 -5,-2 -1,-2" fill="#553c9a" opacity="0.2"/>
+  </g>
+
+  <!-- Floating dots -->
+  <circle cx="460" cy="150" r="4" fill="#553c9a" opacity="0.2"/>
+  <circle cx="470" cy="170" r="3" fill="#ee4b2b" opacity="0.15"/>
+  <circle cx="30" cy="280" r="5" fill="#553c9a" opacity="0.12"/>
+  <circle cx="45" cy="300" r="3" fill="#ee4b2b" opacity="0.12"/>
+
+  <!-- Decorative squares -->
+  <rect x="460" y="320" rx="3" ry="3" width="12" height="12" fill="#553c9a" opacity="0.08" transform="rotate(25 466 326)"/>
+  <rect x="20" y="140" rx="3" ry="3" width="14" height="14" fill="#ee4b2b" opacity="0.07" transform="rotate(-20 27 147)"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="155" cy="346" rx="35" ry="5" fill="#553c9a" opacity="0.06"/>
+</svg>

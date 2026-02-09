@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background decorative circle -->
+  <circle cx="250" cy="210" r="160" fill="#F5F5F5"/>
+
+  <!-- Large puzzle / building block structure -->
+  <!-- Bottom row blocks -->
+  <g>
+    <!-- Block bottom-left -->
+    <rect x="140" y="280" rx="8" ry="8" width="70" height="55" fill="#553c9a" opacity="0.6"/>
+    <rect x="148" y="288" rx="4" ry="4" width="54" height="39" fill="#553c9a" opacity="0.3"/>
+
+    <!-- Block bottom-center -->
+    <rect x="215" y="280" rx="8" ry="8" width="70" height="55" fill="#553c9a" opacity="0.45"/>
+    <rect x="223" y="288" rx="4" ry="4" width="54" height="39" fill="#553c9a" opacity="0.2"/>
+
+    <!-- Block bottom-right -->
+    <rect x="290" y="280" rx="8" ry="8" width="70" height="55" fill="#553c9a" opacity="0.35"/>
+    <rect x="298" y="288" rx="4" ry="4" width="54" height="39" fill="#553c9a" opacity="0.15"/>
+  </g>
+
+  <!-- Middle row blocks -->
+  <g>
+    <!-- Block mid-left -->
+    <rect x="175" y="222" rx="8" ry="8" width="70" height="55" fill="#553c9a" opacity="0.7"/>
+    <!-- Gear icon on block -->
+    <circle cx="210" cy="249" r="12" fill="none" stroke="#fff" stroke-width="2" opacity="0.5"/>
+    <circle cx="210" cy="249" r="5" fill="none" stroke="#fff" stroke-width="2" opacity="0.5"/>
+
+    <!-- Block mid-right -->
+    <rect x="250" y="222" rx="8" ry="8" width="70" height="55" fill="#553c9a" opacity="0.55"/>
+    <!-- Code icon on block -->
+    <text x="285" y="254" text-anchor="middle" fill="#fff" font-family="monospace" font-size="14" opacity="0.5">&lt;/&gt;</text>
+  </g>
+
+  <!-- Top block -->
+  <rect x="212" y="164" rx="8" ry="8" width="70" height="55" fill="#553c9a" opacity="0.8"/>
+  <!-- Checkmark on top block -->
+  <path d="M238 191 L245 198 L258 182" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+  <!-- Puzzle piece floating (being placed) -->
+  <g transform="translate(370, 140) rotate(10)">
+    <rect x="0" y="0" rx="8" ry="8" width="60" height="48" fill="#ee4b2b" opacity="0.8"/>
+    <!-- Puzzle knob top -->
+    <rect x="20" y="-10" rx="6" ry="6" width="20" height="16" fill="#ee4b2b" opacity="0.8"/>
+    <!-- Puzzle slot right -->
+    <rect x="52" y="14" rx="6" ry="6" width="16" height="20" fill="#ee4b2b" opacity="0.8"/>
+    <!-- Rocket icon on puzzle piece -->
+    <path d="M25 30 L30 18 L35 30 Z" fill="#fff" opacity="0.6"/>
+    <rect x="28" y="30" rx="1" ry="1" width="4" height="5" fill="#fff" opacity="0.4"/>
+  </g>
+
+  <!-- Dashed connection lines showing placement -->
+  <path d="M370 165 Q340 170 320 180" stroke="#ee4b2b" stroke-width="2" stroke-dasharray="5 3" fill="none" opacity="0.4"/>
+
+  <!-- Person -->
+  <!-- Legs -->
+  <rect x="82" y="300" rx="5" ry="5" width="12" height="40" fill="#2D2D2D"/>
+  <rect x="100" y="300" rx="5" ry="5" width="12" height="40" fill="#2D2D2D"/>
+
+  <!-- Shoes -->
+  <ellipse cx="88" cy="340" rx="10" ry="5" fill="#2D2D2D"/>
+  <ellipse cx="106" cy="340" rx="10" ry="5" fill="#2D2D2D"/>
+
+  <!-- Torso -->
+  <path d="M72 250 Q72 232 97 232 Q122 232 122 250 L125 300 L70 300 Z" fill="#553c9a"/>
+
+  <!-- Neck -->
+  <rect x="90" y="218" rx="4" ry="4" width="12" height="16" fill="#FFB5B5"/>
+
+  <!-- Head -->
+  <ellipse cx="97" cy="203" rx="22" ry="24" fill="#FFB5B5"/>
+
+  <!-- Hair -->
+  <path d="M75 196 Q75 176 97 172 Q119 176 119 196 L119 188 Q119 172 97 168 Q75 172 75 188 Z" fill="#2D2D2D"/>
+
+  <!-- Eyes -->
+  <circle cx="89" cy="200" r="2.2" fill="#2D2D2D"/>
+  <circle cx="105" cy="200" r="2.2" fill="#2D2D2D"/>
+
+  <!-- Smile -->
+  <path d="M91 210 Q97 215 103 210" stroke="#2D2D2D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Arm pointing up at structure -->
+  <path d="M122 248 Q145 235 155 225" stroke="#FFB5B5" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Hand -->
+  <circle cx="157" cy="222" r="6" fill="#FFB5B5"/>
+
+  <!-- Other arm holding wrench/tool -->
+  <path d="M72 250 Q55 260 50 280" stroke="#FFB5B5" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- Wrench in hand -->
+  <g transform="translate(42, 278) rotate(-30)">
+    <rect x="0" y="0" rx="2" ry="2" width="6" height="22" fill="#E0E0E0"/>
+    <circle cx="3" cy="0" r="6" fill="none" stroke="#E0E0E0" stroke-width="3"/>
+  </g>
+
+  <!-- Floating decorative elements -->
+  <!-- Small gears -->
+  <g transform="translate(430, 80)">
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#553c9a" stroke-width="2.5" opacity="0.2"/>
+    <circle cx="0" cy="0" r="5" fill="#553c9a" opacity="0.15"/>
+  </g>
+
+  <g transform="translate(450, 110)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ee4b2b" stroke-width="2" opacity="0.2"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ee4b2b" opacity="0.15"/>
+  </g>
+
+  <!-- Light bulb idea icon -->
+  <g transform="translate(60, 100)">
+    <ellipse cx="0" cy="0" rx="14" ry="16" fill="#ee4b2b" opacity="0.15"/>
+    <ellipse cx="0" cy="-2" rx="10" ry="12" fill="none" stroke="#ee4b2b" stroke-width="1.5" opacity="0.4"/>
+    <rect x="-4" y="10" rx="2" ry="2" width="8" height="5" fill="#ee4b2b" opacity="0.3"/>
+    <!-- Rays -->
+    <line x1="0" y1="-22" x2="0" y2="-26" stroke="#ee4b2b" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+    <line x1="14" y1="-12" x2="18" y2="-14" stroke="#ee4b2b" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+    <line x1="-14" y1="-12" x2="-18" y2="-14" stroke="#ee4b2b" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating dots -->
+  <circle cx="460" cy="260" r="4" fill="#553c9a" opacity="0.2"/>
+  <circle cx="475" cy="280" r="3" fill="#ee4b2b" opacity="0.2"/>
+  <circle cx="30" cy="250" r="5" fill="#553c9a" opacity="0.15"/>
+  <circle cx="20" cy="320" r="3" fill="#ee4b2b" opacity="0.15"/>
+
+  <!-- Small squares decoration -->
+  <rect x="440" y="310" rx="3" ry="3" width="14" height="14" fill="#553c9a" opacity="0.1" transform="rotate(15 447 317)"/>
+  <rect x="25" y="160" rx="3" ry="3" width="12" height="12" fill="#ee4b2b" opacity="0.08" transform="rotate(-20 31 166)"/>
+
+  <!-- Progress indicator dots at bottom -->
+  <circle cx="210" cy="365" r="5" fill="#553c9a" opacity="0.5"/>
+  <circle cx="230" cy="365" r="5" fill="#553c9a" opacity="0.5"/>
+  <circle cx="250" cy="365" r="5" fill="#553c9a" opacity="0.5"/>
+  <circle cx="270" cy="365" r="5" fill="#ee4b2b" opacity="0.3"/>
+  <circle cx="290" cy="365" r="5" fill="#E0E0E0" opacity="0.4"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="97" cy="344" rx="30" ry="5" fill="#553c9a" opacity="0.06"/>
+</svg>

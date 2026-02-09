@@ -1,14 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
-import axios from "axios";
-import CustomModal from "../../utils/CustomModal";
-import CustomDangerousModal from "../../utils/CustomDangerousModal";
-import { projectCredentials } from "../../portfolio";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ id, theme, value, hostedURL, deployURL }) => {
+const ProjectCard = ({ id, theme, value }) => {
   const {
     name,
     description,
@@ -16,54 +11,8 @@ const ProjectCard = ({ id, theme, value, hostedURL, deployURL }) => {
     stargazers_count,
     languages_url,
     pushed_at,
-    default_branch,
-    is_active,
     languages,
   } = value;
-
-  const [showModal, setShowModal] = useState({
-    isShow: false,
-    title: "",
-    body: "",
-  });
-
-  const [showDangerousModal, setShowDangerousModal] = useState({
-    isShow: false,
-    title: "",
-    body: ``,
-  });
-
-  const showCreds = () => {
-    setShowDangerousModal({
-      isShow: true,
-      title: `${name} Credentails`,
-      body: projectCredentials[name],
-    });
-  };
-
-  const buildProject = async () => {
-    try {
-      await axios.post(deployURL, {
-        project: name,
-        params: ["setupProject", name, svn_url, default_branch, "false"],
-      });
-
-      setShowModal({
-        isShow: true,
-        title: "Deployment in progress!",
-        body:
-          "You have initiated the deployment process for the project. Please wait until the deployment timer ends and click on the refresh button to access the hosted application. In case, the 'View App' button is still disabled, please wait a few seconds and refresh again.",
-        showProgress: true,
-      });
-    } catch (e) {
-      setShowModal({
-        isShow: true,
-        title: "Action Failed!!!",
-        body:
-          "We are unable to deploy the project at the moment. Please try again later.",
-      });
-    }
-  };
 
   const CardButtons = () => {
     return (
@@ -76,52 +25,14 @@ const ProjectCard = ({ id, theme, value, hostedURL, deployURL }) => {
         >
           <i className="fab fa-github" /> <b>Source Code</b>
         </a>
-        <button
-          onClick={buildProject}
-          className="btn btn-outline-danger mx-2 custombutton"
-        >
-          <i className="fas fa-wrench" /> <b>Deploy</b>
-        </button>
-
-        <button
-          className="btn btn-outline-success mx-2 customdisabledhover custombutton"
-          onClick={() => {
-            window.open(hostedURL, "_blank");
-          }}
-          disabled={!is_active}
-        >
-          <i className="far fa-eye" /> <b> View Code</b>
-        </button>
-
-        <button
-          className="btn btn-outline-dark mx-2 customdisabledhover custombutton"
-          onClick={showCreds}
-        >
-          <i className="fa fa-user-secret" /> <b>Creds</b>
-        </button>
       </div>
     );
   };
 
   return (
-    // <Fade bottom duration={2000} distance="40px" style={{ display: "flex" }}>
     <span>
-      <CustomDangerousModal
-        title={showDangerousModal.title}
-        body={showDangerousModal.body}
-        show={showDangerousModal.isShow}
-        setShow={setShowDangerousModal}
-      />
-      <CustomModal
-        title={showModal.title}
-        body={showModal.body}
-        show={showModal.isShow}
-        setShow={setShowModal}
-        showProgress={showModal.showProgress === true}
-        progressPeriod={59}
-      />
       <Card
-        className="card shadow-lg p-3 rounded"
+        className="card shadow-lg p-3 rounded project-card"
         style={{
           background: "transparent",
           height: "100%",
@@ -150,17 +61,7 @@ const ProjectCard = ({ id, theme, value, hostedURL, deployURL }) => {
             {!description ? "" : description || <Skeleton count={3} />}{" "}
           </span>
         </Card.Text>
-        {svn_url ? (
-          <CardButtons
-            name={name}
-            default_branch={default_branch}
-            svn_url={svn_url}
-            hostedURL={hostedURL}
-            deployURL={deployURL}
-          />
-        ) : (
-          <Skeleton count={2} />
-        )}
+        {svn_url ? <CardButtons /> : <Skeleton count={2} />}
 
         <hr />
         {languages_url ? (
@@ -180,7 +81,6 @@ const ProjectCard = ({ id, theme, value, hostedURL, deployURL }) => {
         )}
       </Card>
     </span>
-    // </Fade>
   );
 };
 

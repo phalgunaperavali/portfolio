@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe7476d0ec5f4054e3306f35ecea9e21",
+    "revision": "c4d93ae6132b43b4aeec20ec9c0fee1a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7173c925d608731a41e2",
+    "revision": "ddbddf425f1465ff7079",
     "url": "/portfolio/static/css/2.8ac840ac.chunk.css"
   },
   {
-    "revision": "0652617f482ead240289",
-    "url": "/portfolio/static/css/main.55d7f6d9.chunk.css"
+    "revision": "4a64701e3b0c05c7a2c0",
+    "url": "/portfolio/static/css/main.2dec722e.chunk.css"
   },
   {
-    "revision": "7173c925d608731a41e2",
-    "url": "/portfolio/static/js/2.f228c7c9.chunk.js"
+    "revision": "ddbddf425f1465ff7079",
+    "url": "/portfolio/static/js/2.80cc398b.chunk.js"
   },
   {
-    "revision": "0652617f482ead240289",
-    "url": "/portfolio/static/js/main.db2f62e1.chunk.js"
+    "revision": "4a64701e3b0c05c7a2c0",
+    "url": "/portfolio/static/js/main.6d624f0b.chunk.js"
   },
   {
     "revision": "61eba4b7359dec6cdf85",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
     "url": "/portfolio/static/media/contactMail.5f915405.png"
+  },
+  {
+    "revision": "4bb223162e3551d70944c8fc68db83e2",
+    "url": "/portfolio/static/media/contact_animated.4bb22316.jpeg"
   },
   {
     "revision": "ebf35d7f33ebbd4a4c6cff7e66e21fdb",
@@ -242,6 +246,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "571a8584e69ecfbe326c8b8385fbbf54",
     "url": "/portfolio/static/media/iiitk_logo.571a8584.png"
+  },
+  {
+    "revision": "6f6d44643dd023e983f04f09e1debdab",
+    "url": "/portfolio/static/media/illustration_developer.6f6d4464.svg"
+  },
+  {
+    "revision": "67ecde87de93673073e3077b8c7eb44a",
+    "url": "/portfolio/static/media/illustration_education.67ecde87.svg"
+  },
+  {
+    "revision": "b6fb28da69a45e3b220dd2fd324c8d18",
+    "url": "/portfolio/static/media/illustration_experience.b6fb28da.svg"
+  },
+  {
+    "revision": "1bc97153ee58156c19c81f15f1535078",
+    "url": "/portfolio/static/media/illustration_projects.1bc97153.svg"
   },
   {
     "revision": "29152cf756a1facead5393c32e373371",
